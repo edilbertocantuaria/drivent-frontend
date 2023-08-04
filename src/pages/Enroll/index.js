@@ -21,7 +21,7 @@ export default function Enroll() {
   const { loadingSignUp, signUp } = useSignUp();
 
   const navigate = useNavigate();
-  
+
   const { eventInfo } = useContext(EventInfoContext);
 
   async function submit(event) {
